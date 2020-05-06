@@ -208,8 +208,8 @@ end
 puts self.class
 
 # # PROGRAM
-# chess = ChessGame.new(ARGV.map(&:chars))
+chess = ChessGame.new(ARGV.map(&:chars))
 
-# puts chess.check
-# puts 'Board:', chess.board.map(&:join)
+puts chess.check
+puts 'Board:', chess.board.map(&:join)
 
